@@ -1,0 +1,183 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Dependency directories
+.node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Uploads directory (user uploaded files)
+uploads/
+
+# Build directories
+dist/
+build/
+
+# Database backups
+*.sql
+*.backup
+
+# Certificate files
+*.pem
+*.crt
+*.key
+
+# Documentation
+/docs/_build/
+
+# Package lock files (choose one based on your package manager)
+# package-lock.json
+# yarn.lock
+
+# Runtime data for MySQL (if using local MySQL)
+data/
+
+# Docker
+docker-compose.override.yml
+
+# MacOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Backup files
+*.backup
+*.bak
+
+# Session files
+*.session
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data for MySQL (if using local development)
+/mysql_data/
+
+# Temporary folders
+tmp/
+temp/
+
+# Code coverage
+.coverage/
+.nyc_output/
+
+# Build artifacts
+/public/build/
+/static/build/
+
+# Environment-specific configurations
+/config/*.local.js
+/config/*.local.json
+
+# PM2 process files
+ecosystem.config.js
+/.pm2/
+
+# SSL certificates
+/ssl/
+
+# Documentation
+/docs/site/
+
+# Testing
+/test-results/
+/coverage/
+
+# Package managers
+.pnpm-store/
